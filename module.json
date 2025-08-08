@@ -1,0 +1,32 @@
+{
+	"id": "gm-macros",
+	"title": "GM MACROS",
+	"description": "<p>Registers SocketLib callbacks for running GM-only commands.</p>",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "13.346",
+		"maximum": "13"
+	},
+	"esmodules": ["scripts/callbacks.js"],
+	"socket": true,
+	"authors": [
+		{
+			"name": "warman35king",
+			"flags": {}
+		}
+	],
+	"relationships": {
+		"requires": [
+			{
+				"id": "socketlib",
+				"type": "module",
+				"compatibility": {
+					"minimum": "1.1.3",
+					"verified": "1.1.3"
+				}
+			}
+		]
+	},
+	"flags": {}
+}
