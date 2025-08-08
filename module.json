@@ -16,6 +16,11 @@
 			"flags": {}
 		}
 	],
+	"url": "https://github.com/warman35king/gm-macros",
+	"manifest": "https://raw.githubusercontent.com/warman35king/gm-macros/refs/heads/main/module.json",
+	"update":{
+		"manifest": "https://raw.githubusercontent.com/warman35king/gm-macros/refs/heads/main/module.json"
+	},
 	"relationships": {
 		"requires": [
 			{
